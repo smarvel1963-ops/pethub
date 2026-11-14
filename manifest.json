@@ -1,0 +1,37 @@
+{
+  "id": "/pethub/",
+  "name": "Pet Hub",
+  "short_name": "Pet Hub",
+  "description": "Pet Hub by Marvel Corp - every pet's care and life story in one place. Ages and birthday countdowns, daily care checklists, vet visits, shots and medicine reminders, weight and growth, a pet passport, and every memory from the first day home. Data stays on your phone.",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff6ea",
+  "theme_color": "#fff6ea",
+  "categories": [
+    "lifestyle",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

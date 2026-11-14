@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- SAVE AS: privacy.html · LOCATION: C:/MarvelApps/pethub/privacy.html
+     Pet Hub privacy policy (app v1.61, 2026-11-13). Same structure as Family Hub's and Health Hub's. Plain words; only claims the
+     code actually backs (shared Hub engine in the Day Hub repo, DH_MODE "pet" + pet.js). Update the date whenever a data flow changes. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Hub Privacy</title>
+  <link rel="icon" type="image/png" href="icon-192.png">
+  <style>
+    :root { --bg: #fff6ea; --fg: #1f2b5e; --dim: #5d5d78; --accent: #d9433a; --line: rgba(0,0,0,.12); }
+    @media (prefers-color-scheme: dark) { :root { --bg: #14121c; --fg: #f3eee6; --dim: #b4aec4; --accent: #ff8a7a; --line: rgba(255,255,255,.14); } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 28px 16px 60px; }
+    h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 28px 0 6px; }
+    .dim { color: var(--dim); font-size: 14px; } a { color: var(--accent); }
+    .wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; } td, th { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+    th { font-size: 13px; color: var(--dim); font-weight: 600; }
+  </style>
+</head>
+<body><main>
+  <h1>Pet Hub privacy policy</h1>
+  <p class="dim">Pet Hub is an app by Marvel Corp, part of the Hub family of apps. Last updated November 13, 2026.</p>
+
+  <h2>The short version</h2>
+  <p>What you put in Pet Hub stays on your phone. There are no Pet Hub accounts, no ad trackers and no analytics in the app. Your information is never sold and never used for advertising. One optional AI feature sends some of it to an AI service to answer you - only when you use it - and it is listed below.</p>
+
+  <h2>What stays on your phone</h2>
+  <p>Everything you type: your first name if you give it, and for each pet its name, species, breed, colour, boy or girl, birthday or estimated age, Gotcha Day, the colour you pick for it, its daily care routine and what you tick off, medicines as you typed them from your vet and the doses you log, shots and when they are due, vet visits and notes, weights, memories and their stories, the passport details (microchip and tag numbers, vet and emergency vet names and phone numbers, insurance company and policy number, notes for a sitter) and the day a pet passed if you use the Rainbow Bridge page. These are saved in your browser's storage on your phone. We cannot see them.</p>
+  <p>Photos (profile photos, memory photos and pictures of papers such as vaccine records) are kept in a separate store on your phone. They are never put in the backup and never sent anywhere.</p>
+  <p><b>Deleting:</b> ⚙ Settings → <b>Your data</b> → <b>Erase everything</b> deletes your Pet Hub information on the phone (photos included). Removing one pet: open its profile → Edit → Remove this pet.</p>
+
+  <h2>Not veterinary advice</h2>
+  <p>Pet Hub keeps your own records. It never works out a dose or tells you what treatment to use; medicines show exactly what you typed from your vet. General tips (like life stages) are general information only - ask your vet.</p>
+
+  <h2>What leaves your phone, and why</h2>
+  <div class="wrap"><table>
+    <tr><th>When</th><th>What is sent</th><th>To whom</th></tr>
+    <tr><td>Always (opening the app)</td><td>Normal web requests (your IP address, browser type)</td><td>GitHub Pages, which hosts the app, and Google Fonts, which supplies the lettering.</td></tr>
+    <tr><td>If you enter a city or ZIP for weather (optional, in ⚙)</td><td>The city or ZIP code you enter, then that place's map location</td><td>Open-Meteo (weather and place search). For US ZIP codes, also Zippopotam.us.</td></tr>
+    <tr><td>If you use 💡 Ask with the AI helper on</td><td>Your question, and the Pet Hub information it needs to answer from: each pet's name, species, breed, age, birthday, Gotcha Day, care routine and today's ticks, medicines as typed, shots, recent vet visits and notes, weights and how many memories it has. Photos, microchip and policy numbers and phone numbers are never sent.</td><td>Our relay (a Google Apps Script run by Marvel Corp), which passes it to Anthropic's Claude to get the answer (<a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic's privacy policy</a>). The relay does not save your text.</td></tr>
+    <tr><td>If you turn on backup</td><td>A copy of your Pet Hub information (not photos)</td><td>A hidden app folder in <b>your own</b> Google Drive. Only the Hub apps on your devices can read it. We cannot.</td></tr>
+    <tr><td>If you tap a phone number in the passport</td><td>Nothing from the app; your phone dials the number</td><td>Your phone's dialer</td></tr>
+    <tr><td>If you turn on reminders</td><td>Nothing. Reminders come from your phone itself.</td><td>No one</td></tr>
+  </table></div>
+
+  <h2>Children</h2>
+  <p>Pet Hub is made for pet owners. It has no accounts and does not knowingly collect information from children under 13.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:smarvel1963@gmail.com">smarvel1963@gmail.com</a>.</p>
+</main></body>
+</html>
